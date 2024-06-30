@@ -18,7 +18,7 @@ async function bootstrap() {
   app.useGlobalFilters(new RpcCustomExceptionFilter());
   await app.listen(envs.port);
 
-  console.log('Testing submodule - first change')
+  console.log('Testing submodule - second change')
 
   logger.log(`Gateway running on port ${envs.port}`);
 }
