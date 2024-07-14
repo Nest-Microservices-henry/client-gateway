@@ -9,4 +9,6 @@ run nats : docker run -d --name nats-main -p 4222:4222 -p 6222:6222 -p 8222:8222
 Have the microservices that are going to be consumed up and running
 Start project with npm run start:dev
 
+#PROD
 
+ docker build -f dockerfile.prod -t client-gateway .
